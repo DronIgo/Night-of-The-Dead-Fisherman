@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1876067119866386838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1876067119866386824}
+  - component: {fileID: 1876067119866386839}
+  m_Layer: 0
+  m_Name: TaskGenerator (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1876067119866386824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876067119866386838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -30.833162, y: 2.6149025, z: -8.657925}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1876067119866386839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876067119866386838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563c95add1700ad4ab0b831c16734229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sumPartPrefab: {fileID: 169943840842150688, guid: d5b7154c80d465a4a88214d45b627820, type: 3}
+  productPartPrefab: {fileID: 3907172355655253382, guid: f964e90d8f5025f47a24880c67bbee71, type: 3}
+  colorsPartPrefab: {fileID: 2151985863308694295, guid: 3ddbed36932fff84a872765799178019, type: 3}
+  colorsNoPartPrefab: {fileID: 2151985863308694295, guid: 660b36e167ccc184bad4ecd8030ca051, type: 3}
+  colorsMustPartPrefab: {fileID: 2151985863308694295, guid: 0bdeff1b373ae674cb3bdb76616594c4, type: 3}
+  specificPartPrefab: {fileID: 1474684161125178409, guid: 207f8f970a4c6d14fa93e725e6689791, type: 3}
+  specificPartPrefab1: {fileID: 1474684161125178409, guid: 85908bfbd6d4f604da447dc536ba7fe0, type: 3}
+  specificPartPrefab2: {fileID: 2223485428570846955, guid: 63a355aabedc40a4a8fa93e78a7dd4ec, type: 3}
+  specificPartPrefab3: {fileID: 6319422201445463109, guid: 4ef0696895c5b7f43863f67526ea27e4, type: 3}
+  specificPartPrefab4: {fileID: 1124765178473216771, guid: 2c9ba4e5302714b4d8f92c0b59a75fbd, type: 3}
+  specificPartPrefab5: {fileID: 4361643393191884509, guid: 834a5a40e56498f45b836f38aab4f42d, type: 3}
+  specificPartPrefab6: {fileID: 3885536910922326910, guid: 7a8a840f956d5b94b82065b9e5dd3cd3, type: 3}
+  allOddPrefab: {fileID: 8069967230672915436, guid: b35a962e437a5174a9e662a3051b7f08, type: 3}
+  allEvenPrefab: {fileID: 2972938136737849722, guid: 46b9dd64ef1fb1d48bd22202d5af759a, type: 3}
+  red: {fileID: 2100000, guid: 1b16110a19a3e844bb0d779e2302fdb2, type: 2}
+  white: {fileID: 2100000, guid: bdc6935ee4136c447af94fdc8efb1858, type: 2}
+  blue: {fileID: 2100000, guid: d3b068265850b9841b22e9d6cff9069d, type: 2}
+  yellow: {fileID: 2100000, guid: ea9d2a9648695e545ba9ab45cec049ee, type: 2}
+  cyan: {fileID: 2100000, guid: 857a5c55ceee058489cd2d12cd3d3c00, type: 2}
+  taskFontNormal: {fileID: 11400000, guid: 17f2a5e2a49f6a4418e374bea092fa83, type: 2}
+  taskFontRight: {fileID: 11400000, guid: 8aeb4603149b3114b930d5e9d8750620, type: 2}
+  taskFontWrong: {fileID: 11400000, guid: fa13f100f06f5c047a5a90e7b6839f81, type: 2}
+  taskFontNormalMaterial: {fileID: 2100000, guid: f4f4953b8baaaa44ab7a57de49ebed26, type: 2}
+  taskFontRightMaterial: {fileID: 2100000, guid: 9d68d50ca6c218e42806025714a111ed, type: 2}
+  taskFontWrongMaterial: {fileID: 2100000, guid: ffcc57b87d6e51f459e2cd98c61e2b23, type: 2}
+  taskFontNormalColor: {r: 0.122641504, g: 0.07214693, b: 0.006247765, a: 1}
+  taskFontRightColor: {r: 0, g: 0.764151, b: 0.05660374, a: 1}
+  taskFontWrongColor: {r: 0.6037736, g: 0, b: 0, a: 1}
